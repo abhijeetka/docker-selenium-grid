@@ -1,0 +1,61 @@
+
+bin
+build.xml
+hub.log
+junit
+lib
+node_chrome.log
+node_firefox.log
+src
+test_local_chrome.log
+test_local_firefox.log
+
+bin
+build.xml
+hub.log
+junit
+lib
+node_chrome.log
+node_firefox.log
+src
+test_local_chrome.log
+test_local_firefox.log
+Apache Ant(TM) version 1.9.4 compiled on October 7 2014
+Buildfile: /opt/build.xml
+
+clean:
+   [delete] Deleting directory /opt/bin
+   [delete] Deleting directory /opt/junit
+
+build-subprojects:
+
+init:
+    [mkdir] Created dir: /opt/bin
+
+build-project:
+     [echo] SampleSeleniumGrid: /opt/build.xml
+    [javac] Compiling 2 source files to /opt/bin
+
+build:
+
+FireFoxDriver:
+    [mkdir] Created dir: /opt/junit
+    [junit] Running com.test.TitleCheck_FireFox
+    [junit] Tests run: 1, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 12.747 sec
+    [junit] Error: 
+    [junit] Oct 15, 2015 1:19:00 PM org.apache.http.impl.execchain.RetryExec execute
+    [junit] INFO: I/O exception (java.net.NoRouteToHostException) caught when processing request to {}->http://172.17.0.184:4444: No route to host
+    [junit] Oct 15, 2015 1:19:00 PM org.apache.http.impl.execchain.RetryExec execute
+    [junit] INFO: Retrying request to {}->http://172.17.0.184:4444
+    [junit] Oct 15, 2015 1:19:03 PM org.apache.http.impl.execchain.RetryExec execute
+    [junit] INFO: I/O exception (java.net.NoRouteToHostException) caught when processing request to {}->http://172.17.0.184:4444: No route to host
+    [junit] Oct 15, 2015 1:19:03 PM org.apache.http.impl.execchain.RetryExec execute
+    [junit] INFO: Retrying request to {}->http://172.17.0.184:4444
+    [junit] Oct 15, 2015 1:19:06 PM org.apache.http.impl.execchain.RetryExec execute
+    [junit] INFO: I/O exception (java.net.NoRouteToHostException) caught when processing request to {}->http://172.17.0.184:4444: No route to host
+    [junit] Oct 15, 2015 1:19:06 PM org.apache.http.impl.execchain.RetryExec execute
+    [junit] INFO: Retrying request to {}->http://172.17.0.184:4444
+    [junit] 
+
+BUILD SUCCESSFUL
+Total time: 14 seconds

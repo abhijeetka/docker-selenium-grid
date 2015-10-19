@@ -1,0 +1,14 @@
+06:18:47.295 INFO - Launching a Selenium Grid node
+06:18:48.311 INFO - Java: Oracle Corporation 25.45-b02
+06:18:48.321 INFO - OS: Linux 3.13.0-24-generic amd64
+06:18:48.339 INFO - v2.47.1, with Core v2.47.1. Built from revision 411b314
+06:18:48.470 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
+06:18:48.471 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
+06:18:48.474 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+06:18:48.475 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+06:18:48.594 INFO - Selenium Grid node is up and ready to register to the hub
+06:18:48.660 INFO - Starting auto registration thread. Will try to register every 5000 ms.
+06:18:48.663 INFO - Registering the node to the hub: http://172.17.0.194:4444/grid/register
+06:18:48.708 INFO - The node is registered to the hub and ready to use

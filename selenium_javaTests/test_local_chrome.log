@@ -1,0 +1,5 @@
+
+> docker-selenium-tests@0.0.0 start /usr/src/app
+> $TEST_CMD
+
+Buildfile: build.xml does not exist!
